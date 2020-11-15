@@ -1,0 +1,329 @@
+.front-name {
+  font-family: 'Libre Baskerville', serif;
+  font-style: normal;
+  color: #f2f2f2;
+  font-weight: 700;
+  font-size: 70pt;
+}
+
+.project-name {
+  font-family: 'Libre Baskerville', serif;
+  color: #f2f2f2;
+  font-size: 65pt;
+}
+
+html,
+body {
+  background-image: url('./images/WoodTextureDark.png');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.description {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 22pt;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: #525252;
+  font-size: 40pt;
+}
+
+img.project-display {
+  width: 75%;
+  padding: 0%;
+  height: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+img.project-page {
+  width: 75%;
+  padding: 0%;
+  height: auto;
+}
+
+img.home-display {
+  width: 75%;
+  padding: 0%;
+  height: auto;
+  margin-top: 20px;
+}
+
+img.project-display:hover {
+  opacity: 0.5;
+  filter: brightness(130%);
+  -webkit-filter: brightness(130%);
+  -moz-filter: brightness(130%);
+  -o-filter: brightness(130%);
+  -ms-filter: brightness(130%);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+img.profile {
+  margin-top: 10px;
+  width: 60%;
+  height: auto;
+  border-radius: 50px;
+}
+
+img.resume {
+  background-color: #525252;
+  margin-top: 2em;
+  margin-bottom: 5em;
+  max-width: 75%;
+  height: auto;
+}
+
+/* Styling for animated buttons */
+.a .button {
+  margin-bottom: 10em;
+}
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+  background-color: #e94b3cff;
+  border: none;
+  color: #e4bebe;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 325px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-decoration: none;
+}
+
+.button:link {
+  color: white;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Add a grey background color and border to the top navigation */
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #822222;
+  margin-bottom: 10px;
+  margin-left: 0;
+  border: 1px 1px 1px 1px solid #e94b3cff;
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  border: gray 1px;
+  font-family: 'Lato', sans-serif;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 12px 20px 12px;
+  margin-left: 14em;
+  text-decoration: none;
+  font-size: 16px;
+  transition: linear 0.25s;
+}
+
+@media only screen and (max-width: 1900px) {
+  .topnav a {
+    margin-left: 10em;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .topnav a {
+    margin-left: 8em;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .topnav a {
+    margin-left: 6em;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .topnav a {
+    margin-left: 5em;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+  .topnav a {
+    margin-left: 0;
+  }
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.fa {
+  text-align: center;
+  font-size: 24px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: lightgrey;
+  text-decoration: none;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #e94b3cff;
+  color: white;
+}
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.img-fluid {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  overflow: hidden;
+  object-fit: cover;
+  width: 55rem;
+  max-height: 25em;
+}
+
+/* Fade effect for hovering over project images */
+
+.img-fluid:hover {
+  opacity: 0.9;
+  filter: brightness(75%);
+  -webkit-filter: brightness(75%);
+  -moz-filter: brightness(75%);
+  -o-filter: brightness(75%);
+  -ms-filter: brightness(75%);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.col-md-6 {
+  margin-top: 5px;
+}
+
+/* Styling for the slideshow on the home page */
+
+* {
+  box-sizing: border-box;
+}
+.mySlides {
+  display: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4.9s;
+  animation-name: fade;
+  animation-duration: 4.9s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease image size of slideshow contents */
+@media only screen and (max-width: 300px) {
+  .img-home-display {
+    max-width: 10em;
+    height: auto;
+  }
+}

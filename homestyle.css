@@ -1,0 +1,85 @@
+.bg {
+  /* The image used */
+  background-image: url("./images/ScheerDesigns.png") !important;
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: bottom;
+}
+
+.front-intro{
+  text-align: center;
+  color: #a15687;
+  font-weight: bold;
+}
+
+.separate {
+  margin-top: 60%;
+}
+
+
+.a .button{
+  margin-bottom: 10em;
+}
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+  background-color: #a15687;
+  align-self: flex-end;
+  border: none;
+  color: #e4bebe;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 325px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-decoration: none;
+}
+
+
+.button:link{
+  color: white;
+}
+
+.button:hover{
+  text-decoration: none;
+}
+
+.button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
