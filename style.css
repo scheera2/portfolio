@@ -252,7 +252,8 @@ img.resume {
   overflow: hidden;
   object-fit: cover;
   width: 55rem;
-  max-height: 25em;
+  max-height: 22rem;
+  margin-bottom: 2em;
 }
 
 /* Fade effect for hovering over project images */
