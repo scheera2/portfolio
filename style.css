@@ -30,8 +30,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 22pt;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 1em 1em 1em;
 }
 
 h5 {
@@ -73,10 +72,9 @@ img.project-display:hover {
 }
 
 img.profile {
-  margin-top: 10px;
-  width: 60%;
+  width: 10em;
   height: auto;
-  border-radius: 50px;
+  border-radius: 200px;
 }
 
 img.resume {
@@ -167,7 +165,7 @@ img.resume {
   transition: linear 0.25s;
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 991px) {
   .topnav a:not(:first-child) {
     display: none;
   }
@@ -250,58 +248,20 @@ img.resume {
   margin-top: 5px;
 }
 
-/* Styling for the slideshow on the home page */
-
-* {
-  box-sizing: border-box;
-}
-.mySlides {
-  display: none;
-}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* The dots/bullets/indicators */
-
-.active {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 4.9s;
-  animation-name: fade;
-  animation-duration: 4.9s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.4;
+@media only screen and (max-width: 770px) {
+  .front-name {
+    font-size: 30pt;
   }
-  to {
-    opacity: 1;
+  .description {
+    font-size: 15pt;
   }
 }
 
-@keyframes fade {
-  from {
-    opacity: 0.4;
+@media only screen and (max-width: 480px) {
+  .front-name {
+    font-size: 20pt;
   }
-  to {
-    opacity: 1;
-  }
-}
-
-/* On smaller screens, decrease image size of slideshow contents */
-@media only screen and (max-width: 300px) {
-  .img-home-display {
-    max-width: 10em;
-    height: auto;
+  .description {
+    font-size: 7pt;
   }
 }

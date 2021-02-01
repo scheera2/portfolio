@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width; maximum-scale=1; minimum-scale=1;" />
+    <meta
+      name="image"
+      property="og:image"
+      content="https://www.aidanscheer.com/images/ScheerDesigns.png"
+    />
+    <title>Aidan Scheer: Portfolio</title>
+
+    <!-- Link to local styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <main class="container-fluid">
+      <!-- changed div to main -->
+
+      <div class="row">
+        <!-- put nav in a row -->
+        <nav class="topnav" id="myTopnav">
+          <!-- changed div to nav -->
+          <a href="./index">Home</a>
+          <a class="active" href="./portfolio">Portfolio</a>
+          <a href="https://github.com/scheera2/" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/aidan-scheer/" target="_blank">LinkedIn</a>
+          <a href="./AidanScheerResume.pdf" target="_blank">My Resume</a>
+          <a href="javascript:void(0);" class="icon" onclick="mobileNavbar()">
+            <i class="fa fa-bars" style="font-size: 24px"></i>
+          </a>
+        </nav>
+      </div>
+
+      <div class="row align-items-center" align="center">
+        <div class="col-md" align="center">
+          <img
+            class="profile"
+            src="./images/ProfessionalPicture.png"
+            alt="Aidan Scheer Professional Headshot"
+          />
+          <h1 class="front-name">Hey There, I'm Aidan</h1>
+        </div>
+        <p class="description">
+          Welcome to my portfolio! I'm a senior studying Emerging Technology in Business and Design
+          at Miami University. My passions involve app development, website development, and
+          eSports. On this site you will find some of my recent projects and other information about
+          me. Thanks for checking out my portfolio!
+        </p>
+      </div>
+
+      <div class="row">
+        <div class="col-md" align="center">
+          <!-- changed column to col-md-6-->
+          <a href="https://github.com/scheera2/portfolio" target="_blank">
+            <element title="Click here to view the GitHub repository for this portfolio">
+              <img
+                class="img-fluid"
+                src="./images/ScheerDesigns.png"
+                alt="Picture of portfolio home page"
+              />
+            </element>
+          </a>
+        </div>
+
+        <div class="col-md" align="center">
+          <!-- changed column to col-md-6-->
+          <a href="https://github.com/scheera2/MovieSearch" target="_blank">
+            <element title="Search for movies and user reviews with both OMDB and AirTable API">
+              <img
+                class="img-fluid"
+                src="./images/MovieSearch.png"
+                alt="Movie search site with OMDB and AirTable API integration"
+              />
+            </element>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md" align="center">
+          <!-- changed column to col-md-6-->
+          <a href="https://scheera2.myportfolio.com/" target="_blank">
+            <element
+              title="View my portfolio case study on the process of desinging a website to workaround the Pink Tax"
+            >
+              <img
+                class="img-fluid"
+                src="./images/PinkTax.png"
+                alt="Homepage of my Pink Tax website. Educates and provides temporary solutions to prevent yearly expenditures"
+              />
+            </element>
+          </a>
+        </div>
+
+        <div class="col-md" align="center">
+          <!-- changed column to col-md-6-->
+          <element title="Work in progress, check back later for new content!">
+            <img
+              class="img-fluid"
+              src="./images/WorkInProgress.png"
+              alt="Homepage of my Pink Tax website. Educates and provides temporary solutions to prevent yearly expenditures"
+            />
+          </element>
+        </div>
+      </div>
+
+      <!-- added a missing /div -->
+    </main>
+    <!-- end main -->
+
+    <!-- Scripts to decrease load time of pages or implement JS file-->
+    <script src="./script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
