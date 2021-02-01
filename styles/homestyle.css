@@ -1,6 +1,6 @@
 .bg {
   /* The image used */
-  background-image: url('./images/ScheerDesigns.png') !important;
+  background-image: url('../images/ScheerDesigns.png') !important;
 
   /* Full height */
   height: 100%;
@@ -28,10 +28,6 @@
   margin-top: 60%;
 }
 
-.a .button {
-  margin-bottom: 10em;
-}
-
 .button {
   font-family: 'Montserrat', sans-serif;
   border-radius: 10px;
@@ -44,7 +40,7 @@
   width: 325px;
   transition: all 0.5s;
   cursor: pointer;
-  margin-top: 1em;
+  margin-top: 25em;
   margin-bottom: 1em;
   text-decoration: none;
 }
@@ -81,8 +77,8 @@
   right: 0;
 }
 
-@media only screen and (max-width: 700px) {
-  .separate {
-    margin-top: 90%;
+@media only screen and (max-width: 1700px) {
+  .button {
+    margin-top: 20em;
   }
 }
