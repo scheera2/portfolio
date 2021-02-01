@@ -75,6 +75,7 @@ img.profile {
   width: 10em;
   height: auto;
   border-radius: 200px;
+  margin-bottom: 0.5em;
 }
 
 img.resume {
