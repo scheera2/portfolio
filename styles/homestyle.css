@@ -79,6 +79,18 @@
 
 @media only screen and (max-width: 1700px) {
   .button {
-    margin-top: 20em;
+    margin-top: 19em;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .button {
+    margin-top: 11em;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .bg {
+    background-image: url('../images/ScheerDesignsMobile.png') !important;
   }
 }
